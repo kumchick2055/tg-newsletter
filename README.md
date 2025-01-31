@@ -33,7 +33,7 @@ pip install -r requirements.txt
 Применить миграции
 ```sh
 alembic upgrade head
-``
+```
 
 Затем настроить supervisor конфиг для 3 файлов api.conf, arq.conf и ws.conf
 
